@@ -1,10 +1,7 @@
 Sororitize (Basic)
 =============
 
-**Literally sororitizes, like, any sentence.** Oh my gaaaahd, seriously, I might not be the most politically correct person, but I hope you don't get offended by this basic sentence sororitizer. 
-
-This has only the _basic_ functions see the examples are below.
-
+**Literally sororitizes, like, any sentence.** Oh my gaaaahd, seriously, I might not be the most politically correct person, but I hope you don't get offended by this _basic_ sentence sororitizer. 
 
 
 ## Examples
