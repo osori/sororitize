@@ -1,7 +1,7 @@
 Sororitize (Basic)
 =============
 
-**Literally sororitizes, like, any sentence.** Oh my gaaaahd, seriously, This is such a basic sentence sororitizer.
+**Literally sororitizes, like, any sentence.** Oh my gaaaahd, seriously, THIS is such a _basic_ sentence sororitizer.
 
 _"So we know that I'm not the most politically correct person, so don't take this offensively." (Wallace, 2011)_
 
