@@ -13,7 +13,7 @@ Sororitize (Basic)
 
 --------------
 
-**INPUT 2** _ 'I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah. '_
+**INPUT 2** _'I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah. '_
 
 **SORORITIZED** "I mean... I want to get you definitely a fucking chai tea latte to be your best #friend . Let 's seriously go to #Starbucks and like have some fun yeaaaah . Oh no. like like Let me definitely change my fucking political view to like vegan .  "
 
@@ -22,6 +22,6 @@ Sororitize (Basic)
 
 
 
-**INPUT 3** _ "Melissa is a bitch.  "_
+**INPUT 3** _"Melissa is a bitch.  "_
 
 **SORORITIZED** "Elva! My cute girl! Melissa is seriously a #bitch . Oh my gaaahd. #Elva , you like have to DTR right now.
