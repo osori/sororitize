@@ -19,7 +19,7 @@ sorority_sentences = ['Seriously.', 'Oh wait.', random_girl + ', you are my best
 # accepts 
 def sororitize(text):
 	# POS Tagging the given text
-	tokenized = nltk.word_tokenize(text)
+	tokenized = nltk.word_tokenize(str(text))
 	pos_tagged = iter(nltk.pos_tag(tokenized))
 
 	# Like, you know, they always start with interjections like "Oh my gaaaahd"
