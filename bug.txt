@@ -1,0 +1,17 @@
+FIXED!
+    Traceback (most recent call last):
+      File "sororitize.py", line 76, in <module>
+        sorority = sorority + sororitize(random.choice(sorority_sentences))
+      File "sororitize.py", line 25, in sororitize
+        pos_tagged = iter(nltk.pos_tag(tokenized))
+      File "/home/ubuntu/miniconda3/lib/python3.6/site-packages/nltk/tag/__init__.py", line 129, in pos_tag
+        return _pos_tag(tokens, tagset, tagger)    
+      File "/home/ubuntu/miniconda3/lib/python3.6/site-packages/nltk/tag/__init__.py", line 97, in _pos_tag
+        tagged_tokens = tagger.tag(tokens)
+      File "/home/ubuntu/miniconda3/lib/python3.6/site-packages/nltk/tag/perceptron.py", line 152, in tag
+        context = self.START + [self.normalize(w) for w in tokens] + self.END
+      File "/home/ubuntu/miniconda3/lib/python3.6/site-packages/nltk/tag/perceptron.py", line 152, in <listcomp>
+        context = self.START + [self.normalize(w) for w in tokens] + self.END
+      File "/home/ubuntu/miniconda3/lib/python3.6/site-packages/nltk/tag/perceptron.py", line 227, in normalize
+        elif word[0].isdigit():
+    IndexError: string index out of range
