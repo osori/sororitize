@@ -4,6 +4,7 @@
 import random
 import nltk
 from nltk.corpus import names, stopwords, words
+import sys
 
 # lists of names from nltk name corpus
 random_girl = random.choice(names.words('female.txt'))
@@ -63,13 +64,20 @@ def sororitize(text):
 
 	return new_sentence
 
-# Change the text inside to try other inputs
-sorority = sororitize("I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah.")
-
-# Insert random phrases after the sororitized text, making the text even more sororitized
-chance = random.randint(1,100)
-if (chance <= 90):
-	sorority = sorority + sororitize(random.choice(sorority_sentences))
-
-# Demo: Printing the sororitized sentence
-print (str(sorority))
+if len(sys.argv) == 1:
+	print("usage: sororitize.py sentences")
+	print("Use quotes (\"\" or \'\') to separate sentences\n")
+	# Change the text inside to try other inputs
+	sorority = sororitize("I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah.")
+	
+	# Insert random phrases after the sororitized text, making the text even more sororitized
+	chance = random.randint(1,100)
+	if (chance <= 90):
+		sorority = sorority + sororitize(random.choice(sorority_sentences))
+	
+	# Demo: Printing the sororitized sentence
+	print (sorority)
+	
+elif len(sys.argv) > 1:
+	for text in sys.argv[1:]:
+		print(sororitize(text))
