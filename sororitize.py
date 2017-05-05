@@ -19,10 +19,7 @@ sorority_sentences = ['Seriously.', 'Oh wait.', random_girl + ', you are my best
 # accepts 
 def sororitize(text):
 	# POS Tagging the given text
-	# tokenized = nltk.word_tokenize(str(text))
-	# print (text)
 	tokenized = list(filter(None, text.split(' ')))
-	# print (tokenized)
 	pos_tagged = nltk.pos_tag(tokenized)
 
 	# Like, you know, they always start with interjections like "Oh my gaaaahd"
@@ -68,14 +65,13 @@ def sororitize(text):
 
 	return new_sentence
 
-for i in range(100):
-	# Change the text inside to try other inputs
-	sorority = sororitize("I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah.")
-	
-	# Insert random phrases after the sororitized text, making the text even more sororitized
-	chance = random.randint(1,100)
-	if (chance <= 90):
-		sorority = sorority + sororitize(random.choice(sorority_sentences))
-	
-	# Demo: Printing the sororitized sentence
-	print (str(sorority))
+# Change the text inside to try other inputs
+sorority = sororitize("I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah.")
+
+# Insert random phrases after the sororitized text, making the text even more sororitized
+chance = random.randint(1,100)
+if (chance <= 90):
+	sorority = sorority + sororitize(random.choice(sorority_sentences))
+
+# Demo: Printing the sororitized sentence
+print (str(sorority))
