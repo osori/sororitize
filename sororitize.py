@@ -57,8 +57,6 @@ def sororitize(text):
 		else: nochange = True
 
 		# insert space after each word
-		# if (word[1] == '.' or word[1] == '!' or word[1] == ',' or word[1] == "'"):
-		# 	new_sentence = new_sentence[:-1]
 		if (nochange): 
 			new_sentence = new_sentence + word[0]
 		new_sentence = new_sentence + ' '
