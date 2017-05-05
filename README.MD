@@ -9,14 +9,14 @@ _"So we know that I'm not the most politically correct person, so don't take thi
 
 **INPUT 1** _"Give me any sentence that you want to sororitize."_
 
-**SORORITIZED** "Waaaaaait. Give me totally any #sentence that you want to literally sororitize . Leda! My cute girl! I seriously like am literally like dating a beta named Matthew . He is hot as hell . " 
+**SORORITIZED** "Oh my gaaahd, Vilma! Give me any sentence that you kinda want to sororitize. Oh no. I like am seriously dating kinda a #beta totally named Augustus. He like is hot as hell." 
 
 
 --------------
 
-**INPUT 2** _'I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah. '_
+**INPUT 2** _"I want to get you a chai tea latte to be your best friend. Let's go to Starbucks and have some fun yeaaaah."_
 
-**SORORITIZED** "I mean... I want to get you definitely a fucking chai tea latte to be your best #friend . Let 's seriously go to #Starbucks and like have some fun yeaaaah . Oh no. like like Let me definitely change my fucking political view to like vegan .  "
+**SORORITIZED** "Wait. Whaaaaat? I like want to like get you a chai #tea #latte to like be your best friend. Let's literally go to Starbucks and seriously have literally some fun yeaaaah. Daisie! My cute girl! Are we pregaming at Matthew's? "
 
 --------------
 
@@ -25,4 +25,4 @@ _"So we know that I'm not the most politically correct person, so don't take thi
 
 **INPUT 3** _"Melissa is a bitch.  "_
 
-**SORORITIZED** "Elva! My cute girl! Melissa is seriously a #bitch . Oh my gaaahd. #Elva , you like have to DTR right now.
+**SORORITIZED** "I mean... Melissa totally is a #bitch. Wait. What? Eww, Pembroke literally is so gross. "
