@@ -61,6 +61,7 @@ def sororitize(text):
 			new_sentence = new_sentence + word[0]
 		new_sentence = new_sentence + ' '
 
+	new_sentence = new_sentence + random.choice(sorority_sentences)
 	return new_sentence
 
 # Change the text inside to try other inputs
@@ -68,8 +69,5 @@ sorority = sororitize("I want to get you a chai tea latte to be your best friend
 
 # Insert random phrases after the sororitized text, making the text even more sororitized
 chance = random.randint(1,100)
-if (chance <= 90):
-	sorority = sorority + ' ' + sororitize(iter(nltk.pos_tag(nltk.word_tokenize(random.choice(sorority_sentences)))))
-
 # Demo: Printing the sororitized sentence
 print (sorority)
